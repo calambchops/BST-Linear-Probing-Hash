@@ -1,0 +1,153 @@
+1. a) A B C D F E
+   b) A B F C D E
+   c) F A B C D E
+   d) F E D C B A
+   e) A F E D C B
+
+2. a) C B E A D F 
+   b) D B F A C E 
+   c) c E B F D A
+   d) C E B D A F 
+   e) D B C E A F
+
+3.                     E
+		     /   \	
+	            A	  S 
+		       /    \
+		      Q      Y
+		     / \    / \
+		    I      U
+ 		   / \	  / \
+		      O  T
+		     /	
+ 		    N	
+
+   delete: E	       I
+		     /   \	
+	            A	  S 
+		       /    \
+		      Q      Y
+		     / \    / \
+		    O      U
+ 		   /  	  / \
+		  N      T
+
+
+   delete: A 	       I
+		     /   \	
+	            	  S 
+		       /    \
+		      Q      Y
+		     / \    / \
+		    O      U
+ 		   /  	  / \
+		  N      T
+
+		     	
+   delete: S 	       I
+		     /   \	
+	            	  T 
+		       /    \
+		      Q      Y
+		     / \    / \
+		    O      U
+ 		   /  	   
+		  N      
+ 		    	
+
+   delete: Y 	       I
+		     /   \	
+	            	  T 
+		       /    \
+		      Q      U
+		     / \     
+		    O      
+ 		   /  	   
+		  N      
+
+
+   delete: Q 	       I
+		     /   \	
+	            	  T 
+		        /   \
+		       O     U
+		      /      
+		     N      
+ 		     	   
+		        
+   delete: U 	       I
+		     /   \	
+	            	  T 
+		        /   
+		       O     
+		      /      
+		     N      
+ 		     	   
+		        
+   delete: E 	       I
+		     /   \	
+	            	  T 
+		        /   
+		       O     
+		      /      
+		     N      
+ 		     	   
+		      
+   delete: S 	       I
+		     /   \	
+	            	  T 
+		        /   
+		       O     
+		      /      
+		     N      
+ 		     	
+  
+   delete: T 	       I
+		     /   \	
+	            	  O  
+		        /   
+		       N     
+		            
+		           
+   delete: I 	       O
+		     /   \	
+	            	  N  
+		           
+		            
+   delete: O 	       N
+		     /   \	
+	            	    
+		           
+   delete: N 	       
+		      	
+	            	    
+		           
+			       		            
+		       		     	
+
+
+
+
+4. both c and d cannot be the sequence of keys examined
+
+5.  		             33
+			    /   \
+			   /     \
+			  /       \
+		         /         \ 
+		        /           \
+		       /             \
+		      /               \	
+ 	            10, 25             64 
+                    / | \            /    \
+                   /  |  \          /      \
+		  /   |   \        /        \
+		2,7  19  32     43,48      69,86
+
+
+6.  Pos: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19
+    Key: T | A | U |   |   | E | Y |   |   | I |    |    |    |    | N  | O  |    | Q  |    | S
+    Val: 8 | 1 | 5 |   |   | 6 | 3 |   |   | 9 |    |    |    |    | 11 | 10 |    | 4  |    | 7
+
+
+		 
